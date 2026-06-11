@@ -120,6 +120,9 @@ main{
 .card h3{
     color: #B026FF;
 }
+.card h2{
+    color: #B026FF;
+}
 .card:hover{
     transform: translateY(-8px);
     box-shadow: 0 0 20px #8B5CF6;
@@ -155,6 +158,75 @@ main{
     transform: translateY(3px);
 }
 .card button a{
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+
+#education{
+    border-bottom: #B026FF 1px solid;
+    padding-bottom: 30px;
+}
+
+#contact{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+}
+input{
+    background-color: #1A1A2E;
+    color: #E5E7EB;
+    border: 1px solid #8B5CF6;
+    border-radius: 10px;
+    padding: 10px;
+}
+textarea{
+    background-color: #1A1A2E;
+    color: #E5E7EB;
+    border: 1px solid #8B5CF6;
+    border-radius: 10px;
+    padding: 10px;
+}
+input[type="submit"]{
+    background-color: #B026FF;
+    cursor: pointer;
+}
+label{
+    color:#E5E7EB;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #E5E7EB;
+    margin-top: 50px;
+    border-top: #B026FF 1px solid;
+    align-items: center;
+    margin-left: 10px;
+}
+footer button{
+    background-color: #B026FF;
+    border:1px solid #B026FF;
+    border-radius: 30px;
+    width: fit-content;
+    height: 3vh;
+    transition: 0.3s;
+}
+
+footer button:hover{
+    box-shadow: 0 0 10px #8B5CF6;
+    transform: translateY(3px);
+}
+footer button a{
     color: #E5E7EB;
     text-decoration: none;
 }
