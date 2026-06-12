@@ -8,11 +8,15 @@ body{
 .ab{
     color:#B026FF;
     justify-self: center;
-    padding:30px;
+    padding:20px;
     font-size: 50px;
+    transition:0.3ms;
 }
-
-
+.ab:hover{
+    transform: translateY(-3px);
+    text-shadow: 0 0 20px #8B5CF6;
+}
+/*nav*/
 nav{
     background-color: #12121D;
     display: flex;
@@ -45,16 +49,21 @@ nav a:hover{
     border-bottom: 1px solid #8B5CF6;
     color:#B026FF;
 }
-
-
+.bla{
+    background-image: url("https://4kwallpapers.com/images/wallpapers/outrun-neon-dark-background-purple-3840x2160-4523.jpg");
+    background-position: center;
+    background-size: cover;
+}
+/*Hero*/
 main{
     display: flex;
     color: #E5E7EB;
     align-items: center;
     justify-content: center;
-    gap: 150px;
-    margin-top: 30px;
+    gap: 20px;
     padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     border-bottom: #8B5CF6 1px solid;
 }
 .name{
@@ -65,11 +74,11 @@ main{
     flex-direction: column;
     justify-content: center;
 }
-.txt h3{
+.mh3{
     font-weight: lighter;
     color:#9CA3AF;
 }
-.txt button{
+button{
     background-color: #B026FF;
     border:1px solid #B026FF;
     border-radius: 30px;
@@ -77,7 +86,7 @@ main{
     height: 3vh;
     transition: 0.3s;
 }
-.txt button:hover{
+button:hover{
     box-shadow: 0 0 10px #8B5CF6;
     transform: translateY(3px);
 }
@@ -96,18 +105,18 @@ main{
 .img img:hover{
     box-shadow: 0 0 50px #8B5CF6;
 }
-
-
+/*skills*/
 #skills{
     color: #E5E7EB;
     padding: 50px;
 }
+/*cards*/
 .container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
-}
+}   
 .card{
     background-color: #1A1A2E;
     border: 1px solid #B026FF;
@@ -115,7 +124,6 @@ main{
     width: 250px;
     padding: 20px;
     transition:0.3ms;
-    align-content: center;
 }
 .card h3{
     color: #B026FF;
@@ -133,17 +141,6 @@ main{
 .card p{
     color:#E5E7EB;
 }
-
-
-#experience{
-    border-bottom: #B026FF 1px solid;
-    padding-bottom: 30px;
-}
-
-
-.tiny{
-    font-size: 14px;
-}
 .card button{
     background-color: #B026FF;
     border:1px solid #B026FF;
@@ -152,7 +149,6 @@ main{
     height: 3vh;
     transition: 0.3s;
 }
-
 .card button:hover{
     box-shadow: 0 0 10px #8B5CF6;
     transform: translateY(3px);
@@ -161,18 +157,33 @@ main{
     color: #E5E7EB;
     text-decoration: none;
 }
-
-
-#education{
+/*experience*/
+#experience{
     border-bottom: #B026FF 1px solid;
     padding-bottom: 30px;
 }
-
+/*projects*/
+#projects{
+    margin-top: 20px;
+    gap: 30px;
+}
+.tiny{
+    font-size: 10px;
+    color:#9CA3AF;
+}
+/*education*/
+#education{
+    border-bottom: #B026FF 1px solid;
+    padding-bottom: 30px;
+    margin-top: 50px;;
+}
+/*contact*/
 #contact{
     align-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url("https://4kwallpapers.com/images/wallpapers/outrun-neon-dark-background-purple-3840x2160-4523.jpg");
 }
 form{
     display: flex;
@@ -201,14 +212,13 @@ input[type="submit"]{
 label{
     color:#E5E7EB;
 }
-
-
+/*footer*/
 footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     color: #E5E7EB;
-    margin-top: 50px;
+    margin-top: 0px;
     border-top: #B026FF 1px solid;
     align-items: center;
     margin-left: 10px;
@@ -221,7 +231,6 @@ footer button{
     height: 3vh;
     transition: 0.3s;
 }
-
 footer button:hover{
     box-shadow: 0 0 10px #8B5CF6;
     transform: translateY(3px);
